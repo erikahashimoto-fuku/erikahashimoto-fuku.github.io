@@ -1,0 +1,9 @@
+/* style.css に追加 */
+img {
+    display: block;      /* 中央寄せしやすくする */
+    margin: 20px auto;   /* 上下に余白を作り、左右中央に配置 */
+    border: 5px solid #fff; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* 軽い影をつける */
+    max-width: 100%;     /* 親要素からはみ出さないようにする */
+    height: auto;
+}
